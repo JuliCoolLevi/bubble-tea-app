@@ -2,10 +2,16 @@ import '../App.css'
 
 import './Styles/History.css'
 
+import CosyPlace from './CosyPlace';
+
 const History = () => {
     return (
         <div>
+
         
+  
+       
+
         <section className='information_section'>
 
         <h1>History</h1>
