@@ -1,11 +1,14 @@
 import '../App.css'
 
+import './Styles/History.css'
+
 const History = () => {
     return (
         <div>
-            <h1>History</h1>
-            
-            
+        
+        <section className='information_section'>
+
+        <h1>History</h1>
 
         <p>
         The owner of a tea store, Liu Han-Chieh, first came
@@ -24,9 +27,8 @@ const History = () => {
 
         It has been popular through worldwide and Asia
         </p>
-      
-        
 
+        </section>
 
         </div>
     );

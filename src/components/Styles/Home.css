@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+  }
+
+
+.bubbletea {
+    height: 400px;
+    background: linear-gradient(135deg, #ffebcc, #fff);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+

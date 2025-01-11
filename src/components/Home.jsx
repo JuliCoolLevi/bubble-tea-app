@@ -1,5 +1,7 @@
 // import { useState } from 'react';
 import '../App.css';
+import './Styles/Home.css';
+
 
 import { Canvas } from '@react-three/fiber';
 
@@ -19,9 +21,9 @@ function Home() {
     <>
     <h1>All About Bubble Tea</h1>
 
-    <p>Interactable!</p>
+    <p>Interact with a 3D Model!</p>
 
-    <img src={swipe_icon} width="100" height="100" />
+    {/* <img src={swipe_icon} width="100" height="100" /> */}
     
     {/* <Information/>
 
@@ -52,6 +54,10 @@ function Home() {
       <p>
       Learn more by clicking the other options by the bar above!
       </p>
+    
+    <footer>
+      Made with the love of bubble tea lovers (like me) ❤️
+    </footer>
 
     </>
   )
