@@ -2,7 +2,6 @@ import '../App.css'
 
 import './Styles/History.css'
 
-import { CosyPlace } from './CosyPlace.jsx';
 
 import { Canvas } from '@react-three/fiber';
 
@@ -11,18 +10,11 @@ import { Environment, OrbitControls } from '@react-three/drei';
 
 
 
+
 const History = () => {
     return (
-    <div>
-
-    <Canvas className='cosy_place'>
-        <OrbitControls enableZoom={false}/>
-        <ambientLight intensity={2}/>
-        <CosyPlace/>
+    <>
     
-    </Canvas> 
-     
-        
         
     <section className='information_section'>
 
@@ -48,7 +40,7 @@ const History = () => {
 
     </section>
 
-    </div>
+    </>
     );
 }
 
