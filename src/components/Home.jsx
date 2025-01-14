@@ -19,9 +19,11 @@ import swipe_icon from '../assets/swipe.gif';
 function Home() {  
   return (
     <>
-    <h1>All About Bubble Tea</h1>
+    <div className='heading'>
+      <h1>All About Bubble Tea</h1>
 
-    <p>Interact with a 3D Model!</p>
+      <p>Interact with a 3D Model!</p>
+    </div>
 
     {/* <img src={swipe_icon} width="100" height="100" /> */}
     
@@ -45,6 +47,7 @@ function Home() {
     </Canvas>
   </div>
       
+    <div className='information_section'>
       <p>
       The beverage also known as boba drink, pearl tea drink,
       or boba tea, called Chun Shui Tang, Liu Han-Chieh, first
@@ -54,10 +57,16 @@ function Home() {
       <p>
       Learn more by clicking the other options by the bar above!
       </p>
+
+      </div>
     
     <footer>
       Made with the love of bubble tea lovers (like me) ❤️
+
     </footer>
+
+
+    <a href='https://sketchfab.com/3d-models/boba-tea-2be1f3c8a0e54150bb61a438940b6921'>Model</a>
 
     </>
   )

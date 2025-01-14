@@ -6,16 +6,28 @@ import './Styles/History.css'
 import { Canvas } from '@react-three/fiber';
 
 import { Environment, OrbitControls } from '@react-three/drei';
+import { Test } from './Test.jsx';
 
+import { Suspense } from 'react';
 
+//images
+import bubble_tea_image from '../assets/Bubble_tea_history.jpg';
 
 
 
 const History = () => {
     return (
     <>
+    <div className='heading'>
+    <h1>How Did Bubble Tea Came to Be?</h1>
+
+    <img src={bubble_tea_image}/>
     
-        
+    </div>
+
+    
+
+
     <section className='information_section'>
 
     <h1>History</h1>
@@ -33,7 +45,7 @@ const History = () => {
     to make money.
 
     He found tapioca balls and decided to use it with green tea.
-    Therefore, bubble tea was meshStandardMaterial
+    Therefore, bubble tea was born.
 
     It has been popular through worldwide and Asia
     </p>
