@@ -20,10 +20,12 @@ function Home() {
   return (
     <>
     <div className='heading'>
-      <h1>All About Bubble Tea</h1>
+      <p>All About Bubble Tea!</p>
 
-      <p>Interact with a 3D Model!</p>
+      <p></p>
     </div>
+
+    
 
     {/* <img src={swipe_icon} width="100" height="100" /> */}
     
@@ -37,15 +39,20 @@ function Home() {
     </mesh>
     </Canvas> */}
   
-  <div className='bubbletea'>
-    <Canvas camera={{fov: 90}}>
-    <Environment preset='city'/>
-    <OrbitControls />
-    <ambientLight/>
-    
-    <BubbleTea/> 
+  <div className="bubbletea-section">
+
+  <div className="bubbletea-background"></div>
+
+  <div className="bubbletea-content">
+    <Canvas camera={{ fov: 60, zoom: 2.5, position: [-5, -10, 5] }}>
+      <Environment preset="city" />
+      <ambientLight />
+      <BubbleTea />
     </Canvas>
+    </div>
   </div>
+
+    
       
     <div className='information_section'>
       <p>
@@ -63,10 +70,13 @@ function Home() {
     <footer>
       Made with the love of bubble tea lovers (like me) ❤️
 
+      <br></br>
+
+      <a href='https://sketchfab.com/3d-models/boba-tea-2be1f3c8a0e54150bb61a438940b6921'>Model</a>
+
     </footer>
 
 
-    <a href='https://sketchfab.com/3d-models/boba-tea-2be1f3c8a0e54150bb61a438940b6921'>Model</a>
 
     </>
   )

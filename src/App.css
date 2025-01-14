@@ -1,12 +1,16 @@
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 .topnav {
+  position: sticky;
+  top: 0;
   background-color: #e87575;
   overflow: hidden;
   width: 100vw;
+  z-index: 1;
 }
 
 .topnav a {
@@ -32,14 +36,22 @@ html, body {
   margin: 20px auto; 
   max-width: 800px;
   line-height: 1.6;
+  
 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+
+@font-face {
+  font-family: 'Copyduck';
+  src: url(./components/Fonts/Copyduck.ttf);
+}
+
+
 .heading {
-  font-family: 'Georgia', serif;
+  font-family: 'Copyduck', serif;
+  font-size: 80px;
   color: #6b4226; 
   text-align: center;
 }
-
 
