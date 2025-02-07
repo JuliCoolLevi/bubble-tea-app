@@ -13,46 +13,60 @@ import { Suspense } from 'react';
 //images
 import bubble_tea_image from '../assets/Bubble_tea_history.jpg';
 
+import background_image from '../assets/taiwan-milk-tea-with-bubble.jpg';
 
 
 const History = () => {
     return (
-    <>
-    <div className='heading'>
-    <h1>How Did Bubble Tea Came to Be?</h1>
-
-    <img src={bubble_tea_image}/>
+    <body className='history_section'>
     
+
+    <h1>History About the Beloved drink</h1>
+    <p className='subtitle'>Origins, Global Phenomenon, Modern Day</p>
+
+
+
+    <div className='information_section_history'>
+
+    <h1>Origins: 1980s</h1>
+    <p>
+        One popular story is that Lin Hsiu Hui, the owner of the Chun Shui Tang teahouse in Taichung, 
+        invented bubble tea by adding tapioca pearls to iced milk tea, inspired by her desire to offer something new to customers.
+        </p>
+        <p>
+        Another claim is from Liu Han-Chieh, the founder of the Hanlin Tea Room,
+        who reportedly invented bubble tea by combining tapioca balls with iced tea.
+    </p>
     </div>
 
+    <div className='information_section_history'>
     
-
-
-    <section className='information_section'>
-
-    <h1>History</h1>
-
+    <h1>Global Phenomenon: 2000s</h1>
     <p>
-    The owner of a tea store, Liu Han-Chieh, first came
-    up with the idea of serving tea cold in the early 1980s.
-
-    Tapioca balls, frequently known as "boba pearls" came at a 
-    later time.
+    Bubble tea began to spread beyond Taiwan in the 1990s. Its unique combination of flavors, textures, and playful appeal drew international attention.
+    By the early 2000s, bubble tea shops opened in Hong Kong, Japan, and Southeast Asia.
     </p>
-
     <p>
-    Tu Tsong He, ran into debt and needed to find another idea
-    to make money.
-
-    He found tapioca balls and decided to use it with green tea.
-    Therefore, bubble tea was born.
-
-    It has been popular through worldwide and Asia
+    The United States saw a boom in bubble tea shops in cities like Los Angeles and New York in the mid-2000s, making it a global phenomenon.
+    Today, bubble tea is enjoyed worldwide, with variations popping up in many countries, often incorporating local flavors and ingredients.
     </p>
+ 
+    </div>
+    
+    <div className='information_section_history'>
 
-    </section>
+    <h1>Cultural Influence: Present Day</h1>
+    <p>
+    Bubble tea has become not just a drink but a cultural symbol, especially in Taiwan and other parts of East Asia.
+    </p>
+    <p>
+    It is often associated with youth culture, fashion, and socializing, with its wide variety of customization options, 
+    such as different teas, toppings, and sweetness levels.
+    </p>
+    </div>
 
-    </>
+
+    </body>
     );
 }
 

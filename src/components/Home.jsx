@@ -22,7 +22,7 @@ function Home() {
     <div className='heading'>
       <p>All About Bubble Tea!</p>
 
-      <p></p>
+   
     </div>
 
     
@@ -55,6 +55,8 @@ function Home() {
     
       
     <div className='information_section'>
+
+      <h2>What is it?</h2>
       <p>
       The beverage also known as boba drink, pearl tea drink,
       or boba tea, called Chun Shui Tang, Liu Han-Chieh, first

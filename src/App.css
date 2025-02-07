@@ -2,6 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  
 }
 
 .topnav {
@@ -10,14 +11,16 @@ html, body {
   background-color: #e87575;
   overflow: hidden;
   width: 100vw;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   z-index: 1;
+  
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 50px 20px;
+  padding: 20px 20px;
   font-size: 17px;
 }
 

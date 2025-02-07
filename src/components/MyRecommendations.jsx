@@ -5,7 +5,7 @@ const MyRecommendations = () => {
         <div>
             <h1>My Recommendations</h1>
 
-            <p>My recommendations are</p>
+            <p>My recommendations are -can be drink related like in the website-</p>
 
            
             

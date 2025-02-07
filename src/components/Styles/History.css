@@ -2,7 +2,43 @@
 
 h1 {
     font-family: 'Georgia', serif;
-    color: #6b4226; 
+    color: #b17852; 
     margin-bottom: 20px;
 }
 
+p {
+    font-family: 'Georgia', serif;
+}
+
+p.subtitle {
+    font-family: 'Georgia', serif;
+    color: aliceblue;
+}
+
+body.history_section  {
+    display: flex; 
+    flex-direction: column; 
+    background-image: url("../../assets/taiwan-milk-tea-with-bubble.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.information_section_history {
+    left: 300px;
+    position: relative;
+    width: 50vw;
+    background-color: beige;
+    padding: 20px;
+    font-size: large;
+    text-align: justify; 
+    border-radius: 8px; 
+    margin: 20px auto; 
+    max-width: 80vw;
+    line-height: 1.6;
+    
+    
+  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}

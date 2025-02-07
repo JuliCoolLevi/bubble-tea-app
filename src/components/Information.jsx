@@ -10,8 +10,8 @@ const Information = () => {
 
             <a href='/'>Home</a>
             <a href='/history'>History</a>
-            <a href='/brands'>Brands</a>
-            <a href='/myrecommendations'>My Recommendations</a>
+            {/* <a href='/brands'>Brands</a>
+            <a href='/myrecommendations'>My Recommendations</a> */}
 
         </div>
     );
