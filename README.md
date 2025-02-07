@@ -2,5 +2,5 @@
 
 This is a website about bubble tea.
 
-The website contains multiple pages that shows the history, brands, and my personal recommendations
+The website contains pages that shows the history, and home
 
